@@ -20,3 +20,13 @@ console.log("Make sure you pick a scarf!");
   console.log("Short sleeves are fine.");
 }
 console.log("Now you're ready to go outside!");
+
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote");
+}
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
